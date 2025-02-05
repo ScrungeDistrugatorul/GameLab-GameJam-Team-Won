@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        _rb.AddForce(transform.right * horizontalSpeed);
+        _rb.AddForce(transform.right * horizontalSpeed * Time.fixedDeltaTime);
         if (Input.GetKey(KeyCode.Space))
         {
             _rb.AddForce(transform.up * verticalSpeed);
