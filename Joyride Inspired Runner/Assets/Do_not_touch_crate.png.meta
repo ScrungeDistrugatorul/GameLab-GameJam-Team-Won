@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9601cf2aa21b529408e942ae28090686
+guid: 7d4acf22fde0eaf4d8ff2f0cb0cb6d00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8390895269229568843
-    second: Background_1.2_0
+      213: 1335667196963254790
+    second: Do_not_touch_crate_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_1.2_0
+      name: Do_not_touch_crate_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 1920
-        height: 1080
+        width: 587
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b432fed5ac2727470800000000000000
-      internalID: 8390895269229568843
+      spriteID: 602f22d2d3e398210800000000000000
+      internalID: 1335667196963254790
       vertices: []
       indices: 
       edges: []
