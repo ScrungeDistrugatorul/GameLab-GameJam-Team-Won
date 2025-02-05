@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,13 +8,21 @@ public class EnemyBehaviour : MonoBehaviour
     {
         Destroy(gameObject, 6f);
     }
-
-    void OnCollisionEnter2D(Collision2D collision)
+  
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        GameObject obj = other.gameObject;
+        PlayerMovement player = obj.GetComponent<PlayerMovement>();
+        if (obj.CompareTag("Player") && !player.shielded)
         {
             SceneManager.LoadScene("Adrian Testing");
+            // Debug.Log("Player " + obj.name + " is dead");
+        }
+        else if (obj.CompareTag("Player") && player.shielded)
+        {
+            player.shielded = false;
+            Destroy(gameObject);
+            // Debug.Log("Player " + obj.name + " is shielded");
         }
     }
-    
 }

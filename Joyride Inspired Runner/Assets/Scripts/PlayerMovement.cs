@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public float horizontalSpeed;
     public float verticalSpeed;
     
-    private Rigidbody2D _rb;      
+    private Rigidbody2D _rb;
+    [HideInInspector] public bool shielded;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +24,15 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             _rb.AddForce(transform.up * verticalSpeed);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Shield"))
+        {
+            shielded = true;
+            // Debug.Log("Shielded");
         }
     }
 }

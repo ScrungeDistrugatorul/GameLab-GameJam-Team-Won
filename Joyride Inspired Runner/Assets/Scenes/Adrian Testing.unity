@@ -130,41 +130,14 @@ GameObject:
   - component: {fileID: 25812481}
   - component: {fileID: 25812480}
   - component: {fileID: 25812479}
-  - component: {fileID: 25812478}
+  - component: {fileID: 25812482}
   m_Layer: 0
   m_Name: Static Sprite
-  m_TagString: Untagged
+  m_TagString: Shield
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &25812478
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25812477}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!58 &25812479
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -195,7 +168,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -271,6 +244,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &25812482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25812477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb8bcb112dc52c459d5c7331fb74d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &33228265
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,7 +741,7 @@ Transform:
   m_GameObject: {fileID: 91806371}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.0033, y: -5.47, z: 0}
+  m_LocalPosition: {x: 9.0033, y: -6.42, z: 0}
   m_LocalScale: {x: 1000, y: 1.8206, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -952,6 +937,7 @@ MonoBehaviour:
   objectsToSpawn:
   - {fileID: 8369283734247479383, guid: 0e869c5f5bec652419625f9a1bb6635c, type: 3}
   - {fileID: 2287891735850380769, guid: a164d7c2bcf9b8846ab672a06bf7eb63, type: 3}
+  - {fileID: 3706726587986237931, guid: a92c4d90f770b0f468db3b4a64b66acd, type: 3}
   spawnTime: 1
   target: {fileID: 0}
   offsetX: 25
