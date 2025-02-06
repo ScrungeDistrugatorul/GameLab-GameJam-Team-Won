@@ -147,3 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fdbe59f1c6f4b947bcc18541a848512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyCollision: {fileID: 0}
+  enemyCollisionSound:
+  - {fileID: 8300000, guid: d821b8c40264e764d94459e6d5d03920, type: 3}
+  - {fileID: 8300000, guid: b097400088c607940adc10b41810733a, type: 3}

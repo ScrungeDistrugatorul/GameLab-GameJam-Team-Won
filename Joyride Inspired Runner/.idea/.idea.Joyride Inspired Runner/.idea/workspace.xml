@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4ccc284-776d-44aa-9c5c-f0b773c63eba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Joyride Inspired Runner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Joyride Inspired Runner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BackgroundManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bullet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Chandelier.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Chandelier.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Crate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Crate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Adrian Testing.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Adrian Testing.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Chandelier_.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Chandelier_.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Gun_arifact.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Gun_arifact.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Sprite1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Sprite1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Stoen_obstacle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Stoen_obstacle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerPowerUps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerPowerUps.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +45,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "other-scenes-and-character-sprties",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

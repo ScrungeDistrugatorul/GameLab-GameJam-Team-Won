@@ -10,6 +10,7 @@ TagManager:
   - CeilingEnemy
   - Gun
   - Background
+  - GameScore
   layers:
   - Default
   - TransparentFX

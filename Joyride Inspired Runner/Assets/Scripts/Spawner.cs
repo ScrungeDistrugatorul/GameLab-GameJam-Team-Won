@@ -50,7 +50,7 @@ public class Spawner : MonoBehaviour
         }
         else if (spawnObj.CompareTag("Enemy"))
         {
-            float scale = Random.Range(0.5f, 1f);
+            float scale = Random.Range(0.5f, 0.8f);
             float rotation = Random.Range(rotationValues[0], rotationValues[2]);
             GameObject cube = Instantiate(spawnObj, 
                 new Vector3(transform.position.x, (transform.position.y + Random.Range(-4,4)),transform.position.z+5), 
