@@ -5,6 +5,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private GameObject[] objectsToSpawn;
     
     public float spawnTime;
+    public float[] rotationValues;
     
     private float _timeBetweenSpawns;
     
@@ -47,18 +48,27 @@ public class Spawner : MonoBehaviour
                 new Vector3(transform.position.x, (transform.position.y - 3.5f),transform.position.z+5), 
                 Quaternion.identity);
         }
-        else if (spawnObj.CompareTag("Unknown"))
+        else if (spawnObj.CompareTag("Enemy"))
         {
+            float scale = Random.Range(0.5f, 1f);
+            float rotation = Random.Range(rotationValues[0], rotationValues[2]);
             GameObject cube = Instantiate(spawnObj, 
                 new Vector3(transform.position.x, (transform.position.y + Random.Range(-4,4)),transform.position.z+5), 
                 Quaternion.identity);
-            cube.transform.localScale = new Vector3(Random.Range(1f,2f), Random.Range(1f,2f), transform.localScale.z);
-            cube.transform.localRotation = Quaternion.Euler(Random.Range(0f,90f), Random.Range(0f,90f), transform.eulerAngles.z);
+            cube.transform.localRotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, rotation);
+            cube.transform.localScale = new Vector3(scale, scale, transform.localScale.z);
+            Debug.Log(cube.transform.localScale);
         }
         else if (spawnObj.CompareTag("Gun") || spawnObj.CompareTag("Shield"))
         {
             Instantiate(spawnObj, 
                 new Vector3(transform.position.x, (transform.position.y + Random.Range(-3,3)),transform.position.z+5), 
+                Quaternion.identity);
+        }
+        else if (spawnObj.CompareTag("CeilingEnemy"))
+        {
+            Instantiate(spawnObj, 
+                new Vector3(transform.position.x, (transform.position.y + 3.5f),transform.position.z+5), 
                 Quaternion.identity);
         }
     }

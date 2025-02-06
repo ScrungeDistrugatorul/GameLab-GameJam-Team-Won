@@ -9,6 +9,7 @@ TagManager:
   - GroundedEnemy
   - CeilingEnemy
   - Gun
+  - Background
   layers:
   - Default
   - TransparentFX

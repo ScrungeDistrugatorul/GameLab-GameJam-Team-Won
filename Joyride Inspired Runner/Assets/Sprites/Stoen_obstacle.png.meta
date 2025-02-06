@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 09a6bac371605de4e90388435a3aebe7
+guid: dfe9cc8d17fbf0a42b10e28e0cce45ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1166598965428788863
-    second: image(1)_0
+      213: 354959919012247190
+    second: Stoen_obstacle_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image(1)_0
+      name: Stoen_obstacle_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 2
-        width: 166
-        height: 166
+        x: 82
+        y: 25
+        width: 320
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 181674efb686fcfe0800000000000000
-      internalID: -1166598965428788863
+      spriteID: 696f93a6a221de400800000000000000
+      internalID: 354959919012247190
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      image(1)_0: -1166598965428788863
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

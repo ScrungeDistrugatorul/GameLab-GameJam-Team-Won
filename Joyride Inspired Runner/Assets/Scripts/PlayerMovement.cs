@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.AddForce(transform.right * horizontalSpeed * Time.fixedDeltaTime * acceleration);
-        Debug.Log(rb.linearVelocity.x);
+        // Debug.Log(rb.linearVelocity.x);
         if (Input.GetKey(KeyCode.Space))
         {
             rb.AddForce(transform.up * verticalSpeed);
