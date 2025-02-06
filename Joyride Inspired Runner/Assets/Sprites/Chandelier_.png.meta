@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chandelier__0: 6887748462726169112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stoen_obstacle_0: 354959919012247190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
