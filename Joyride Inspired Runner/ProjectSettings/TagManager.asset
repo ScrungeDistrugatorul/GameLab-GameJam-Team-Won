@@ -8,6 +8,7 @@ TagManager:
   - Shield
   - GroundedEnemy
   - CeilingEnemy
+  - Gun
   layers:
   - Default
   - TransparentFX

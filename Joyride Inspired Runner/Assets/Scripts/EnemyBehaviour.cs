@@ -12,7 +12,7 @@ public class EnemyBehaviour : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         GameObject obj = other.gameObject;
-        PlayerMovement player = obj.GetComponent<PlayerMovement>();
+        PlayerPowerUps player = obj.GetComponent<PlayerPowerUps>();
         if (obj.CompareTag("Player") && !player.shielded)
         {
             SceneManager.LoadScene("Adrian Testing");
