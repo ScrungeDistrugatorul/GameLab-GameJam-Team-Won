@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Do_not_touch_crate_0: 1335667196963254790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
